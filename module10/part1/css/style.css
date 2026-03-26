@@ -1,0 +1,27 @@
+p{
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    
+}
+
+p{
+    font-size: 20px;
+    margin: 100px 150px 100px 80px;
+    
+}
+
+p{
+    font-size: 20px;
+    margin: 1px;
+    
+}
+
+p{
+    font-size: 20px;
+    margin: 25px 50px 75px;
+    padding: 50px;
+    
+}
