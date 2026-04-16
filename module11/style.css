@@ -1,8 +1,14 @@
+@font-face {
+    font-family: "fake identity";
+    src: url(fonts/Fake\ Identity.ttf);
+}
+
 h1{
     color: blue;
     letter-spacing: 20px;
     word-spacing: 20px;
     text-shadow: 2px 2px 5px gray;
+    font-family: "fake identity";
 }
 
 p{
@@ -44,4 +50,8 @@ h4{
 #obliqueText{
     font-style: oblique;
     font-weight: 900;
+}
+
+a{
+    color: red;
 }
