@@ -45,3 +45,42 @@ span :first-child{
     color: white;
     padding: 10px;
 }
+
+input:invalid{
+    border: 2px solid red;
+}
+
+input:valid{
+    border: 2px solid green;
+}
+
+input{
+    margin: 10px;
+    padding: 8px;
+
+}
+
+p::first-line{
+    color: blue;
+}
+
+p::first-letter{
+    color: red;
+    font-size: 30px;
+}
+
+.b::before{
+    content: "";
+}
+
+::selection{
+        background: yellow;
+        color: black;
+}
+
+.box{
+    background-color: orange;
+    padding: 20px;
+    margin-top: 20px;
+    opacity: 0,5;
+}
