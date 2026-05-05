@@ -15,3 +15,34 @@ div#relative{
     left: 200px;
     top: 20px;
 }
+
+div#fixed{
+    position: fixed;
+    border: 3px solid blue;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    right: 200px;
+    top: 100px;
+}
+
+div#parent{
+    position: relative;
+    border: 3px solid blue;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+}
+
+div#absolute{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+div#sticky{
+    position: sticky;
+    border: 3px solid green;
+    background-color: chartreuse;
+    padding: 20px;
+}
