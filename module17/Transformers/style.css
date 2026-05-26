@@ -1,0 +1,62 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+h1{
+    margin: 30px;
+}
+
+.box{
+    width: 120px;
+    height: 120px;
+    background-color: royalblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: 0.5;
+}
+
+.translate:hover{
+    transform: translate(30px,20px);
+}
+
+.rotate:hover{
+    transform: rotate(45deg);
+}
+
+.scale:hover{
+    transform: scale(1.5,1.2);
+}
+
+.scaleX:hover{
+    transform: scaleX(1.8);
+}
+
+.scaleY:hover{
+    transform: scaleY(1.8);
+}
+
+.skewX:hover{
+    transform: skewX(25deg);
+}
+
+.skewY:hover{
+    transform: skewY(25deg);
+}
+/*3D Transformers */
+
+.rotateX:hover{
+    transform: rotateX(60deg);
+}
+
+.rotateY:hover{
+    transform: rotateY(60deg);
+}
+
+.rotateZ:hover{
+    transform: rotateZ(90deg);
+}
